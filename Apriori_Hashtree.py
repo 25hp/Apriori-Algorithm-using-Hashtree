@@ -2,7 +2,9 @@ import itertools
 import time
 
 #take input of file name and minimum support count
+print("Enter the filename:")
 filename = input()
+print("Enter the minimum support count:")
 min_support = int(input())
 
 #read data from txt file
